@@ -18,5 +18,10 @@ Output from the **contacts_classifier.py** script:
 - The column named **prediction_scores** represents the probabilities outputed from the model, i.e. the confidence scores for its predictions, and they are ordered in the same order as in the **model_predictions** column -> ["HBOND", "IONIC", "PICATION", "PIPISTACK", "SSBOND", "VDW"].
 - The last column **predicted_classes** contains list of the names of the predicted classes only.
 
+Instructions for reproducing the model:
+- The model can be reproduced by executing the **Final_Model_Training.ipynb** notebook on Google Colab. Make sure to change the **path** variable before executing.
+- The dataset used for training can be obtained from this link (https://drive.google.com/file/d/1vuIvAs_rdM-hfeePw7gPhe2TWJKbXf9k/view?usp=sharing), it couldn't be attached on github because it is larger than 100MB. The dataset should be placed in the folder specified at the **path** variable.
+- The model will be saved as **final_model.h5** at the same folder specified at *path**. 
+
 
 
