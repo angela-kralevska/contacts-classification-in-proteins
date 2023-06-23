@@ -1,6 +1,6 @@
 # Classification of contacts in protein structures
 
-Angela Kralevska (2072021), Elena Stefanovska (2085310)
+*Angela Kralevska (2072021), Elena Stefanovska (2085310)*
 
 This is a repo for the final project for the Structural Bioinformatics course.
 
