@@ -23,6 +23,8 @@ Instructions for reproducing the model:
 - The dataset used for training can be obtained from this link (https://drive.google.com/file/d/1vuIvAs_rdM-hfeePw7gPhe2TWJKbXf9k/view?usp=sharing), it couldn't be attached on github because it is larger than 100MB. The dataset should be placed in the folder specified at the **path** variable.
 - The model will be saved as **final_model.h5** at the same folder specified at **path**.
 
+Our report can be found in the **SB_Project_Report.pdf file**.
+
 All experiments and evaluation with the DNN model for multi-label classification are available in the **DNN_experiments.ipynb** notebook. In addition, this notebook contains the final code and plots regarding the EDA (Exploratory Data Analysis) steps as well as the code for calculating the new features and generating the final clean dataset with all features together. Moreover, the code and experiments with MLSMOTE oversampling are included.
 
 Experiments with OneVSRest approach for classification and obtaining feature importance by training Random Forest model are available in the **OneVSRest_and_Feature_importance_experiments.ipynb** notebook. 
