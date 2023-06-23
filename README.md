@@ -1,14 +1,22 @@
-# contacts-classification-in-proteins
+# Classification of contacts in protein structures
 
 Angela Kralevska (2072021), Elena Stefanovska (2085310)
 
 This is a repo for the final project for the Structural Bioinformatics course.
 
-The Predictor software is contained in the contacts_classifier.py script. Directions for execution: 
-- It should be called with four arguments that represent the location of the input pdb file, configuration file, output directory, and model.
-- In this repo are given examples of pdb file (2ghv.cif), configuration file (configuration.json), and the final model is also attached (final_model.f5).
-- In order to be able to execute the script please make sure to specify the exact location of the dssp_file, rama_file and atchley_file 
-in the configuration.json script.
+The **Predictor software** is contained in the **contacts_classifier.py** script. Directions for execution: 
+- It should be called with **four arguments** that represent the location of the input **pdb file**, **configuration file**, **output directory**, and **model**.
+- In this repo are given examples of pdb file (2ghv.cif), configuration file (configuration.json), and the **final model is also attached (final_model.f5)**.
+- In order to be able to execute the script please make sure to specify the **exact location of the dssp_file**, **rama_file** and **atchley_file** 
+in the **configuration.json** script.
+- Make sure the python libraries: BioPython, Tensorflow, Numpy and Pandas are installed before running the script. 
 
-Output from the contacts_classifier.py script:
+Output from the **contacts_classifier.py** script:
+- Example on how the output from our software looks like can be observed at the **2ghv.tsv file**.
+- The last three columns represent the predictions from the model.
+- The column named **model_predictions** contains the predictions made from the model in a list of 1s and 0s (where 1 means that the class is predicted, and 0 means that the class is not predicted), such that the classes are ordered in this way -> ["HBOND", "IONIC", "PICATION", "PIPISTACK", "SSBOND", "VDW"].
+- The column named **prediction_scores** represents the probabilities outputed from the model, i.e. the confidence scores for its predictions, and they are ordered in the same order as in the **model_predictions** column -> ["HBOND", "IONIC", "PICATION", "PIPISTACK", "SSBOND", "VDW"].
+- The last column **predicted_classes** contains list of the names of the predicted classes only.
+
+
 
