@@ -1,6 +1,7 @@
 # Classification of contacts in protein structures
 
 Angela Kralevska (2072021), Elena Stefanovska (2085310)
+---
 
 This is a repo for the final project for the Structural Bioinformatics course.
 
@@ -25,5 +26,5 @@ Instructions for reproducing the model:
 
 Experiments with OneVSRest approach for classification and obtaining feature importance by training Random Forest model are available in the **OneVSRest_and_Feature_importance_experiments.ipynb** notebook. 
 
-
+All experiments and evaluation with the DNN model for multi-label classification are available in the **DNN_experiments.ipynb** notebook. In addition, this notebook contains the final code and plots regarding the EDA (Exploratory Data Analysis) steps as well as the code for calculating the new features and generating the final clean dataset with all features together. Moreover, the code and experiments with MLSMOTE oversampling are included.
 
